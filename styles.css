@@ -1,0 +1,22 @@
+.livingRoom {
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: fit-content;
+  max-width: 1226px;
+  will-change: auto;
+  animation: clipAnimation 3s ease-out infinite;
+}
+
+@keyframes clipAnimation {
+  0% {
+    clip-path: ellipse(0% 0% at 150px 0px);
+  }
+  100% {
+    clip-path: ellipse(200% 200% at 150px 0px);
+  }
+}
+.roomBase {
+}
