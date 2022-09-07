@@ -7,7 +7,7 @@
   height: fit-content;
   max-width: 1226px;
   will-change: auto;
-  animation: clipAnimation 3s ease-out infinite;
+  animation: clipAnimation 0.5s ease-out infinite alternate;
 }
 
 @keyframes clipAnimation {
